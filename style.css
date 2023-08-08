@@ -7,3 +7,84 @@
   list-style: none;
   text-decoration: none;
 }
+
+body {
+  background: #2c2b3d;
+
+  color: #ffffff;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+
+  line-height: 28px;
+}
+
+#page {
+  width: 1092px;
+  margin: 71px auto 0;  
+}
+
+a {
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 64px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 101px auto 157px;
+}
+
+span {
+  color: #00bfa6;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 6px auto 59px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+p {
+  margin-right: 5px;
+
+  color: #c2c2c2;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.line {
+  width: 568px;
+  border: 1px #00bfa6 solid;
+  margin: 0 auto 27px;
+}
+
+#padlock {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0 0 20px 20px;
+}
